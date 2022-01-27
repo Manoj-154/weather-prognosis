@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="Weather.css">
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <h1 id="heading">WEATHER REPORT</h1>
+      <img  id="firstimg" src="" alt="">
+      <div id="grid1">
+        <div class="search">
+          <input type="text" name="text" class ="textBox" id="textBox">
+          <button id="submitButton">SUBMIT</button>
+      </div>
+    </div>
+    <div class="weather loading"  id="grid2">
+          <div class="flex" >            
+                <div><img src="" alt="" class="icon" id= "cloud" width="50px" height="50px"/> 
+              <div class="description"></div></div>
+              <h1 class="city"></h1>
+            <h2 class="temp"></h2>
+            </div>
+        </div>
+      
+      <script src="app.js"></script>
+  </body>
+  </html>
